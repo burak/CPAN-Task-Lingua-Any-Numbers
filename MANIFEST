@@ -2,6 +2,7 @@ lib/Task/Lingua/Any/Numbers.pm
 t/01-pod.t
 t/02-pod-coverage.t
 t/03-basic.t
+tools/Build.pm
 Makefile.PL
 Build.PL
 Changes
