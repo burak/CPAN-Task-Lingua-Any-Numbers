@@ -1,12 +1,6 @@
-#!/usr/bin/perl -w
-use strict;
-use vars qw(%PREREQ %RECOMMEND %BUILDREQ);
-
-%BUILDREQ = (
-    'Test::More' => '0.40',
-);
-
-%PREREQ = (
+{
+    module_name    => 'Task::Lingua::Any::Numbers',
+    requires       => {
    'Lingua::Any::Numbers' => '0.25',
    (
         map { $_ => 0 }
@@ -32,6 +26,10 @@ use vars qw(%PREREQ %RECOMMEND %BUILDREQ);
             Lingua::SV::Num2Word
         )
     )
-);
-
-1;
+    },
+    meta_merge => {
+        resources => {
+            repository => 'http://bitbucket.org/burak/cpan-task-lingua-any-numbers/',
+        },
+    },
+}
