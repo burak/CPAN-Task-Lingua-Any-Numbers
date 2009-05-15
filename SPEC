@@ -22,7 +22,7 @@
             Lingua::ES::Numeros
             Lingua::ID::Nums2Words
             Lingua::NO::Num2Word
-            Lingua::PT::Nums2Word
+            Lingua::PT::Nums2Words
             Lingua::SV::Num2Word
         )
     )
