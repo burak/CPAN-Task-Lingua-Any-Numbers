@@ -3,7 +3,7 @@ Revision history for Perl extension Task::Lingua::Any::Numbers.
 Time zone is GMT+2.
 
 0.14 Fri May 15 13:09:59 2009
-   => Fix SPEC for Lingua::PT::Nums2Words.
+   => Fix SPEC for Lingua::PT::Nums2Words. RT#45899 (ferreira).
 
 0.13 Thu Apr 23 15:05:06 2009
    => Update builder.
