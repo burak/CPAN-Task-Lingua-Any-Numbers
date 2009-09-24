@@ -1,8 +1,9 @@
 package Task::Lingua::Any::Numbers;
 use strict;
+use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.14';
+$VERSION = '0.15';
 
 1;
 
@@ -57,19 +58,5 @@ L<Lingua::Any::Numbers>, L<Task>.
 All bug reports and wishlist items B<must> be reported via
 the CPAN RT system. It is accessible at
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-Lingua-Any-Numbers>.
-
-=head1 AUTHOR
-
-Burak Gürsoy, E<lt>burakE<64>cpan.orgE<gt>
-
-=head1 COPYRIGHT
-
-Copyright 2009 Burak Gürsoy. All rights reserved.
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify 
-it under the same terms as Perl itself, either Perl version 5.10.0 or, 
-at your option, any later version of Perl 5 you may have available.
 
 =cut
