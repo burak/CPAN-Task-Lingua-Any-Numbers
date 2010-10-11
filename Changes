@@ -2,6 +2,10 @@ Revision history for Perl extension Task::Lingua::Any::Numbers.
 
 Time zone is GMT+2.
 
+0.16 Wed Oct  6 00:24:48 2010
+   => Use Lingua::SV::Numbers for SV.
+   => Also use Lingua::PT::Nums2Ords since Lingua::Any::Numbers now supports it.
+
 0.14 Fri May 15 13:09:59 2009
    => Fix SPEC for Lingua::PT::Nums2Words. RT#45899 (ferreira).
 

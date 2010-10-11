@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.15';
+$VERSION = '0.16';
 
 1;
 
@@ -36,6 +36,7 @@ interface. See the L<Task> module for the rationale.
    Lingua::JA::Numbers
    Lingua::NL::Numbers
    Lingua::PL::Numbers
+   Lingua::SV::Numbers
    Lingua::TR::Numbers
    Lingua::ZH::Numbers
    Lingua::CS::Num2Word
@@ -44,7 +45,7 @@ interface. See the L<Task> module for the rationale.
    Lingua::ID::Nums2Words
    Lingua::NO::Num2Word
    Lingua::PT::Nums2Word
-   Lingua::SV::Num2Word
+   Lingua::PT::Nums2Ords
    Lingua::Any::Numbers
 
 =head1 SEE ALSO
