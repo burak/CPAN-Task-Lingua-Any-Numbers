@@ -1,6 +1,7 @@
 Revision history for Perl extension Task::Lingua::Any::Numbers.
 
-Time zone is GMT+2.
+0.17 Thu Feb 10 00:32:54 2011
+   => Require new Lingua::Any::Numbers.
 
 0.16 Wed Oct  6 00:24:48 2010
    => Use Lingua::SV::Numbers for SV.

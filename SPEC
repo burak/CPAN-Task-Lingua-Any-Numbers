@@ -2,7 +2,7 @@
     module_name => 'Task::Lingua::Any::Numbers',
     requires    => {
         ( $] < 5.006 ? ( 'warnings::compat'  => 0 ) : () ),
-        'Lingua::Any::Numbers' => '0.40',
+        'Lingua::Any::Numbers' => '0.41',
         (
             map { $_ => 0 } qw(
                 Lingua::AF::Numbers
