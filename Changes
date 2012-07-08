@@ -1,5 +1,8 @@
 Revision history for Perl extension Task::Lingua::Any::Numbers.
 
+0.18 Sun Jul  8 01:50:04 2012
+    => Bump version.
+
 0.17 Thu Feb 10 00:32:54 2011
    => Require new Lingua::Any::Numbers.
 
