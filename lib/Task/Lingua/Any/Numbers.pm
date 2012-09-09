@@ -1,15 +1,16 @@
 package Task::Lingua::Any::Numbers;
 use strict;
 use warnings;
-use vars qw( $VERSION );
 
-$VERSION = '0.18';
+our $VERSION = '0.18';
 
 1;
 
 __END__
 
 =pod
+
+=encoding utf8
 
 =head1 NAME
 
@@ -51,13 +52,5 @@ interface. See the L<Task> module for the rationale.
 =head1 SEE ALSO
 
 L<Lingua::Any::Numbers>, L<Task>.
-
-=head1 SUPPORT
-
-=head2 BUG REPORTS
-
-All bug reports and wishlist items B<must> be reported via
-the CPAN RT system. It is accessible at
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-Lingua-Any-Numbers>.
 
 =cut
