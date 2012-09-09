@@ -2,8 +2,8 @@
     module_name => 'Task::Lingua::Any::Numbers',
     requires    => {
         'Lingua::Any::Numbers' => '0.41',
-        (
-            map { $_ => 0 } qw(
+            map { $_ => 0 }
+            qw(
                 Lingua::AF::Numbers
                 Lingua::BG::Numbers
                 Lingua::EN::Numbers
@@ -24,13 +24,10 @@
                 Lingua::PT::Nums2Words
                 Lingua::PT::Nums2Ords
             ),
-            ( $ >= 5.010 ? (
-                # workaround stupidity: this module requires v5.10 for no real reason
-                qw(
+            # workaround stupidity: this module requires v5.10 for no real reason
+            ( $] >= 5.010 ? qw(
                     Lingua::ID::Nums2Words
-                )
-            ) : () )
-        )
+            ) : () ),
     },
     meta_merge => {
         resources => {
