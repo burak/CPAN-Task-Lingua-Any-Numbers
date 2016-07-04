@@ -24,7 +24,7 @@
                 Lingua::PT::Nums2Words
                 Lingua::PT::Nums2Ords
             ),
-            # workaround stupidity: this module requires v5.10 for no real reason
+            # workaround: this module requires v5.10 for no real reason
             ( $] >= 5.010 ? qw(
                     Lingua::ID::Nums2Words
             ) : () ),
