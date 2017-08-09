@@ -1,7 +1,0 @@
-lib/Task/Lingua/Any/Numbers.pm
-t/03-basic.t
-Build.PL
-Changes
-MANIFEST
-README
-SPEC
